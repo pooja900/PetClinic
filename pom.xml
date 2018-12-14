@@ -457,15 +457,14 @@
         </profile>
    </profiles>  
     <distributionManagement>
-	<repository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
+    <repository>
+        <id>central</id>
+        <name>plugins-releases</name>
 		<url>http://35.196.135.120:8081/repository/maven-releases/</url>
 	</repository>
- 
 <snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
+        <id>snapshots</id>
+        <name>plugins-snapshot</name>
 		<url>http://35.196.135.120:8081/repository/maven-snapshots/</url>
 </snapshotRepository> 
 </distributionManagement>
