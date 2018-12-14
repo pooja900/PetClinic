@@ -451,25 +451,21 @@
                             </execution>
                         </executions>
                     </plugin>
-                </plugins>
-            </build>
-        </profile>
-   </profiles>
     <distributionManagement>
 	<repository>
 		<id>deploymentRepo</id>
-
 		<name>Internal Releases</name>
 		<url>http://35.196.135.120:8081/repository/maven-releases/</url>
 	</repository>
  
-	<snapshotRepository>
+<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
 		<url>http://35.196.135.120:8081/repository/maven-snapshots/</url>
-	</snapshotRepository>
-        
+</snapshotRepository> 
 </distributionManagement>
-
-    
+                </plugins>
+            </build>
+        </profile>
+   </profiles>   
 </project>
